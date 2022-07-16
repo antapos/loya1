@@ -8,11 +8,7 @@
     },
     "needsLoyaltyAccount": { "boolean": {}},
     "lifeCycleStatus": {"string": ["active","inactive"]},
-    "brand": {"string": {}},
-    "validFor": {
-      "startDateTime": {"dateTime": {}},
-      "endDateTime": {"dateTime": {}},
-    }
+    "brand": {"string": {}}
   },
   "Post": {
     "cover": {
