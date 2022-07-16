@@ -1,5 +1,5 @@
 {
-  "Spefification": {
+  "Specification": {
     "id": {"string": {}},
     "name": {"string": {}},
     "productNumber": {"string": {}},
@@ -8,7 +8,9 @@
     },
     "needsLoyaltyAccount": { "boolean": {}},
     "lifeCycleStatus": {"string": ["active","inactive"]},
-    "brand": {"string": {}}
+    "brand": {"string": {}},
+    "validFor_startDateTime": {"dateTime": {}},
+    "validFor_endDateTime": {"dateTime": {}}
   },
   "Post": {
     "cover": {
