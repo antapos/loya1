@@ -9,8 +9,8 @@
     "needsLoyaltyAccount": { "boolean": {}},
     "lifeCycleStatus": {"string": ["active","inactive"]},
     "brand": {"string": {}},
-    "validFor_startDateTime": {"dateTime": {}},
-    "validFor_endDateTime": {"dateTime": {}}
+    "validFor_startDateTime": {"dateTime": {"min": "2023-01-01T00:00:00Z","max": "2023-12-31T23:59:59Z"}},
+    "validFor_endDateTime": {"dateTime": {"min": "2023-01-01T00:00:00Z","max": "2023-12-31T23:59:59Z"}}
   },
   "Post": {
     "cover": {
