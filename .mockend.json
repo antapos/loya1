@@ -1,5 +1,5 @@
 {
-  "loyaltyProgramProductSpec": {
+  "LoyaltyProgramProductSpec": {
     "id": {"string": {}}
   },
   "Post": {
