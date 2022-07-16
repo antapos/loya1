@@ -1,14 +1,6 @@
 {
   "loyaltyProgramProductSpec": {
-    "id": {"string": {}},
-    "name": {"string": {}},
-    "productNumber": {"string": {}},
-    "description": {
-      "loremWords": { "minLength": 5, "maxLength": 20 }
-    },
-    "needsLoyaltyAccount": { "boolean": {}},
-    "lifeCycleStatus": {"string": ["active","inactive"]},
-    "brand": {"string": {}}
+    "id": {"string": {}}
   },
   "Post": {
     "cover": {
