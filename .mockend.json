@@ -1,6 +1,18 @@
 {
   "Spefification": {
-    "id": {"string": {}}
+    "id": {"string": {}},
+    "name": {"string": {}},
+    "productNumber": {"string": {}},
+    "description": {
+      "loremWords": { "minLength": 5, "maxLength": 20 }
+    },
+    "needsLoyaltyAccount": { "boolean": {}},
+    "lifeCycleStatus": {"string": ["active","inactive"]},
+    "brand": {"string": {}},
+    "validFor": {
+      "startDateTime": {"dateTime": {}},
+      "endDateTime": {"dateTime": {}},
+    }
   },
   "Post": {
     "cover": {
