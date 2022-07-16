@@ -1,4 +1,19 @@
 {
+  "loyaltyProgramProductSpec": {
+    "id": {"string": {}},
+    "name": {"string": {}},
+    "productNumber": {"string": {}},
+    "description": {
+      "loremWords": { "minLength": 5, "maxLength": 20 }
+    },
+    "needsLoyaltyAccount": { "boolean": {}},
+    "lifeCycleStatus": {"string": ["active","inactive"]},
+    "brand": {"string": {}},
+    "validFor": {
+      "startDateTime": {"dateTime": {}},
+      "endDateTime": {"dateTime": {}},
+    }
+  },
   "Post": {
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
