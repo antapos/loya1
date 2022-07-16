@@ -1,4 +1,21 @@
 {
+  "TMF658": {
+    "loyaltyProgramProductSpec": [
+      {
+        "id": "id1",
+        "name": "name1",
+        "productNumber": "productNumber1",
+        "description": "description1",
+        "needsLoyaltyAccount": true,
+        "lifeCycleStatus": "active",
+        "brand": "brand1",
+        "validFor": {
+          "startDateTime": "2022-07-16T00:00:00+0300",
+          "endDateTime": null
+        }
+      }
+    ],
+  },
   "Post": {
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
